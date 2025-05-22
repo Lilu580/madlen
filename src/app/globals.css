@@ -5,12 +5,38 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* Banner colors */
+  --banner-primary: #fffcf4;
+  --banner-secondary: #f5f5f5;
+  --banner-accent: #e6e6e6;
+  --banner-text: #333333;
+
+  /* Button colors */
+  --button-primary: #ffffff;
+  --button-secondary: #f8f9fa;
+  --button-border: #212529;
+  --button-text: #212529;
+  --button-hover: #f8f9fa;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    
+    /* Dark mode banner colors */
+    --banner-primary: #1a1a1a;
+    --banner-secondary: #2d2d2d;
+    --banner-accent: #404040;
+    --banner-text: #e6e6e6;
+
+    /* Dark mode button colors */
+    --button-primary: #212529;
+    --button-secondary: #343a40;
+    --button-border: #212529;
+    --button-text: #f8f9fa;
+    --button-hover: #343a40;
   }
 }
 
